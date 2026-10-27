@@ -1,0 +1,62 @@
+{
+  "name": "skill-html-semantic-recipes",
+  "version": "1.0.0",
+  "description": "Agent skill: semantic HTML5 markup recipes for common UI components (cards, nav, breadcrumbs, forms, accordion), adapted for HTML, React, Vue, Angular, Svelte, and Astro.",
+  "keywords": [
+    "agent-skill",
+    "skills",
+    "skill",
+    "ai",
+    "claude",
+    "claude-code",
+    "opencode",
+    "cursor",
+    "codex",
+    "html",
+    "semantic-html",
+    "accessibility",
+    "a11y",
+    "react",
+    "vue",
+    "angular",
+    "svelte",
+    "astro"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/letyassine/skill-html-semantic-recipes.git"
+  },
+  "homepage": "https://github.com/letyassine/skill-html-semantic-recipes#readme",
+  "bugs": {
+    "url": "https://github.com/letyassine/skill-html-semantic-recipes/issues"
+  },
+  "bin": {
+    "skill-html-semantic-recipes": "bin/install.js"
+  },
+  "files": [
+    "bin",
+    "references",
+    "SKILL.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.js\"",
+    "install:skill": "node bin/install.js"
+  },
+  "agents": {
+    "skills": [
+      {
+        "name": "html-semantic-recipes",
+        "path": "./"
+      }
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
